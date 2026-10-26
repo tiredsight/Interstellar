@@ -211,6 +211,10 @@ h1 {
 /*Адаптив под мобилки*/
 
 @media (max-width: 768px) {
+    body{
+        background-attachment: scroll;
+    }
+
     .position {
         flex-direction: column;
     }
